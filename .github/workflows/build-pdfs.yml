@@ -16,7 +16,7 @@ jobs:
       - name: Setup Typst
         uses: typst-community/setup-typst@v2
         with:
-          typst-version: "latest" # Précise la version à télécharger
+          version: "latest"
 
       - name: Compile CV to PDF
         run: |
